@@ -57,6 +57,7 @@
                         android:id="@+id/checkboxMonday"
                         android:layout_width="wrap_content"
                         android:layout_marginStart="30dp"
+                        android:backgroundTint="@color/colorAccent"
                         android:layout_height="wrap_content"/>
                 </TableRow>
 
@@ -153,22 +154,24 @@
                 android:textSize="20sp"
                 android:textColor="@color/colorAccent"/>
 
+
             <Button
                 android:id="@+id/btn_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Set time"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/set_time"
                 android:textAllCaps="false"
-                android:textSize="16sp"
+                android:backgroundTint="@color/colorAccent"
                 android:textColor="@color/gray"
-                android:background="?android:attr/selectableItemBackground"/>
-
+                android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_save"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginTop="30dp"
                 android:layout_marginBottom="100dp"
                 android:background="@color/colorAccent"
                 android:paddingHorizontal="50dp"

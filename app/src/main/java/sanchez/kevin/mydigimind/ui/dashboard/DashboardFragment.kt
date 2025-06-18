@@ -125,7 +125,7 @@ class DashboardFragment : Fragment() {
             return false
         }
 
-        if (btnTime.text == "Set time") {
+        if (btnTime.text == "Set Time") {
             Toast.makeText(context, "Por favor, selecciona una hora.", Toast.LENGTH_SHORT).show()
             return false
         }
